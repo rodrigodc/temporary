@@ -1,0 +1,22 @@
+
+# generic backup files
+*~
+
+# vi temporary files
+*.swp
+*.swo
+
+# eclipse project files
+.project
+.metadata
+
+# sublime project files
+*.sublime-project
+*.sublime-workspace
+
+# Python bytecode
+*.pyc
+*.pyo
+
+# Build directory
+/docs/_build/
