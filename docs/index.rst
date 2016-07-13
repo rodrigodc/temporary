@@ -1,22 +1,63 @@
-.. Plataforma Converja® :: API documentation master file, created by
-   sphinx-quickstart on Tue Jul 12 23:26:39 2016.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Plataforma Converja® :: API
+===========================
 
-Welcome to Plataforma Converja® :: API's documentation!
-=======================================================
+Conteúdo
+========
 
-Contents:
+- Introdução
 
-.. toctree::
-   :maxdepth: 2
+ .. toctree::
+    :maxdepth: 1
 
+    intro/confidencialidade
+    intro/advertências
+    intro/escopo
+    intro/protocolo
+    intro/conexão
 
+- Eventos
 
-Indices and tables
-==================
+ .. toctree::
+    :maxdepth: 1
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+    events/intro
+    events/messages-event
 
+- Requisições
+
+ .. toctree::
+    :maxdepth: 1
+
+    requests/intro
+    requests/messages-request
+    requests/messages-response
+
+- Listagem de eventos
+
+ .. toctree::
+    :maxdepth: 1
+
+    events/call-did-finish
+    events/call-did-start
+    events/call-missed
+    events/call-ringing
+    events/user-session-did-finish
+    events/user-session-did-pause
+    events/user-session-did-resume
+    events/user-session-did-start
+
+- Listagem de requisições
+
+ .. toctree::
+    :maxdepth: 1
+
+    requests/delete-calls-active
+    requests/delete-session
+    requests/get-agents-id-status
+    requests/get-queues
+    requests/get-queues-id-agents
+    requests/get-queues-id-calls
+    requests/get-queues-id-supervisors
+    requests/get-timestamp
+    requests/put-calls-active-local
+    requests/put-session-paused
